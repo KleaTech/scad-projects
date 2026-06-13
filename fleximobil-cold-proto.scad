@@ -43,7 +43,7 @@ module final_prototype() {
         cover_shape(inner_radius);
       }
 
-      translate([side_width + 207, -(side_height - 16) -1.5, 9])
+      translate([side_width + 217, -(side_height - 16) -1.5, 9])
       cube([10, 9, 10], center = true);
     }
 
@@ -61,7 +61,7 @@ module final_prototype() {
       screw_hole(4);
 
       // Top
-      translate([side_width + 207, -(side_height - 16), 0])
+      translate([side_width + 217, -(side_height - 16), 0])
       screw_hole(4);
     }
   }
