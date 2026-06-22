@@ -21,7 +21,7 @@ difference() {
   
   // doboz feletti rész törlése
   translate([0, 0, h_height]) 
-  cube([h_width * 2, h_depth * 2, h_diameter * 2], center = true);
+  cube([h_width * 2, h_depth * 2, h_height], center = true);
 
   // antenna cső helyének törlése
   translate([0, 0, (h_height + h_wall_thickness) / 2]) 
